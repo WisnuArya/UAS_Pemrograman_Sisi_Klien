@@ -1,0 +1,60 @@
+untuk membuat folder projek baru
+
+npm create vite@latest my-react-app -- --template react
+cd my-react-app
+npm install
+
+install tailwind css
+npm install -D tailwindcss
+npx tailwindcss init
+
+sesuaikan tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+hapus isi file yang ada di App.css
+ubah isi file yang ada di Index.css
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+install axios
+npm install axios
+
+install sweetalert2
+npm install sweetalert2
+
+install autoprefixer
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+
+sesuaikan postcss.config.js
+exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  }
+}
+
+install redux
+npm install @reduxjs/toolkit react-redux
+
+saya menggunakan api saya sendiri cara konfigurasi nya
+npm install express cors body-parser
+npm install bcryptjs jsonwebtoken
+npm install express mongoose cors body-parser dotenv
+npm install express mongoose cors dotenv
+
+jalankan api 
+node server.js
+
+
